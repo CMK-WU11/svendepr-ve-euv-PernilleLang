@@ -23,5 +23,6 @@ export default function Login() {
             </Link>
         </div>
     </form>
+    <h2>Godmorgen</h2>
   )
 }
