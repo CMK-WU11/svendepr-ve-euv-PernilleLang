@@ -4,7 +4,7 @@ import SearchInput from "@/components/search-input";
 
 export default async function Search () {
 
-     {/* Fetch og map funktion er kopieret fra min terminsprøve opgave og tilpasset */ }
+     {/* Fetch og map funktion er kopieret fra din mægler og min terminsprøve opgave og tilpasset */ }
 
      const responseClasses = await fetch(
         "http://localhost:4000/api/v1/activities",

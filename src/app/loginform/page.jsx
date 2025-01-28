@@ -1,6 +1,5 @@
 "use client"
 
-import Link from "next/link";
 import Login from "@/actions/login"
 import { useActionState, useEffect } from "react"
 
@@ -12,6 +11,7 @@ export default function LoginForm () {
 		console.log("formState", formState)
 	}, [formState])
 
+    {/* const og useEffect er taget med  stor inspiration fra gennemgangen af terminsprøven med Brian*/ }
 
   return (
     <form 

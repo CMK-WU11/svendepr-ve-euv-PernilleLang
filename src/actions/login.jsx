@@ -4,10 +4,13 @@ import { cookies } from "next/headers"
 import { redirect } from "next/navigation"
 import z from "zod"
 
-export default async function Login(formState, formData) {
-	const [username, password] = formData.values()
+// koden her er taget med stor inspiration fra gennemgang af terminsprøven med Brian
 
-	console.log("formData", username, password)
+export default async function Login(formState, formData) {
+	const username = formData.get('username')
+    const password = formData.get('password')
+
+	console.log("fejl", username, password)
 
 	const schema = z.object({
 		username: z.string().min(1, { message: "Indtast venligst et brugernavn!" }),
