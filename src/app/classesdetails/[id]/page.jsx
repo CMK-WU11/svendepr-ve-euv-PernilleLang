@@ -1,3 +1,4 @@
+import Navigation from "@/components/navigation";
 import Image from "next/image";
 
 export default async function ClassesDetails ({ params }){
@@ -30,6 +31,7 @@ export default async function ClassesDetails ({ params }){
                 </div>
             </article>
         </section>
+         <Navigation/>
         </>
     )
 }

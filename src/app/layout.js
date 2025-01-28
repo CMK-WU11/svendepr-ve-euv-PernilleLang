@@ -1,6 +1,5 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Navigation from "@/components/navigation";
 
 export const metadata = {
   title: "Landrup Dans",
@@ -14,7 +13,6 @@ export default function RootLayout({ children }) {
         <main>
           {children}
         </main>
-        <Navigation />
       </body>
     </html>
   );

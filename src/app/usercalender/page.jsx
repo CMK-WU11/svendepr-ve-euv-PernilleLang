@@ -1,3 +1,5 @@
+import Navigation from "@/components/navigation";
+
 export default async function UserCalender () {
 
 
@@ -10,6 +12,7 @@ export default async function UserCalender () {
                 <p className="text-[18px]"> Mandag 15.45</p>
             </div>
         </section>
+        <Navigation/>
         </>
     )
 }

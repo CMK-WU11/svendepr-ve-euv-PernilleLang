@@ -1,4 +1,5 @@
 import ClassCard from "@/components/class-card";
+import Navigation from "@/components/navigation";
 import SearchInput from "@/components/search-input";
 
 export default async function Search () {
@@ -18,6 +19,7 @@ export default async function Search () {
             <SearchInput/>
             <ClassCard classes={classes}/>
         </section>
+        <Navigation/>
         </>
     )
 }

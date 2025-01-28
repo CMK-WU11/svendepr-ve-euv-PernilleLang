@@ -1,4 +1,5 @@
 import ClassCard from "@/components/class-card";
+import Navigation from "@/components/navigation";
 import Image from "next/image";
 import Link from "next/link";
 // import Swiper from "swiper";
@@ -21,6 +22,7 @@ export default async function Aktiviteter() {
             <h2 className="text-white text-[36px] pl-[1.3em] pt-[0.5em]">Aktiviteter</h2>
             <ClassCard classes={classes}/>
         </section>
+        <Navigation />
         </>
     )
 }
