@@ -8,6 +8,7 @@ export default function Home() {
           href="/aktiviteter"
           className="bg-[#5E2E53] text-white text-[18px] rounded-md w-[50%] h-[6%] flex justify-center shadow-[2px_19px_17px_-5px_rgba(0,_0,_0,_0.15)] animate-bounce">
           <button>Kom i gang</button>
+          <p>hej</p>
         </Link>
       </div>
     </section>
