@@ -18,7 +18,13 @@
  
 
 # ***Tredjepartskode*** 
-***Til størrelse på React Icons: https://docs.fontawesome.com/web/use-with/react/style*** Siden her gav mig en god forståelse for styling af React Icons’ størrelse (som jeg ikke kendte i forvejen, og derfor var det vigtigt at finde ud af styling på denne måde). Ingen andre hjemmesider, som jeg tjekkede, gav mig samme forklaring med lethed - Det gav mig tværtimod bare mere forvirring.   
+***Til størrelse på React Icons: https://docs.fontawesome.com/web/use-with/react/style*** Siden her gav mig en god forståelse for styling af React Icons’ størrelse (som jeg ikke kendte i forvejen, og derfor var det vigtigt at finde ud af styling på denne måde). Ingen andre hjemmesider, som jeg tjekkede, gav mig samme forklaring med lethed - Det gav mig tværtimod bare mere forvirring.
+
+***Til animeret knap: https://www.geeksforgeeks.org/how-to-add-keyframes-to-a-tailwind-css-config-file/*** Siden her gav mig stor hjælp til at benytte keyframes til styling af min knap på forsiden. De fleste andre sider gav mig ikke så stor hjælp som denne her gjorde. 
+
+***Til import af fonts: https://www.itzami.com/blog/how-to-add-a-google-font-to-your-gatsby-tailwind-project*** Jeg har benyttet denne side til stor inspration af hvordan jeg importer fonts til styling og benyttelse med projektet her. Jeg bladrede igennem flere sider, men denne her gav mig størst forståelse for det.
+
+***Til gradient farver på min div, på forsiden: https://blog.logrocket.com/guide-adding-gradients-tailwind-css/*** Jeg har benyttet denne side til stor inspiration til styling af min gradient farver på min div, på velkomst siden. Denne hjemmeside gav mig et simpelt overblik, hvor andre sider ikke gav mig den samme lette hjælp.
 
 
 # ***Eksempel på noget kode fra min opgave, med noter***

@@ -16,7 +16,7 @@ export default async function Search () {
         <>
         <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll">
             <h1 className="text-white text-[36px] pl-[1em] pt-[0.5em]">Søg</h1>
-            <SearchInput/>
+            <SearchInput classes={classes}/>
             <ClassCard classes={classes}/>
         </section>
         <Navigation/>
