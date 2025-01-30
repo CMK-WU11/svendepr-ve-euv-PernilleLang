@@ -14,11 +14,11 @@ export default function Home() {
         <div className="bg-[gradient-to-l from-fuchsia-900 via-fuchsia-700 to-fuchsia-900 h-[1em] w-[17em]]"></div>
       </section>
       <div className="h-[35%] flex justify-center items-end pb-[3em]">
-        <button className="welcome-button bg-[#5E2E53] text-white text-[18px] rounded-md w-[50%] h-[20%] shadow-[2px_19px_17px_-5px_rgba(0,_0,_0,_0.15)]">
-          <Link href="/aktiviteter">
-            Kom i gang
-          </Link>
-        </button>
+        <Link
+          href="/aktiviteter"
+          className="welcome-button bg-[#5E2E53] text-white text-[18px] rounded-md w-[50%] h-[20%] shadow-[2px_19px_17px_-5px_rgba(0,_0,_0,_0.15)] flex justify-center items-center">
+          Kom i gang
+        </Link>
       </div>
     </div>
   )

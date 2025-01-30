@@ -22,14 +22,14 @@ export default function Navigation( ) {
                     </Link>
                 </li>
                 <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
-                    <Link href="/loginform">
-                        <BsPerson size={"1.5em"} /> 
-                    </Link>     
-                </li>
-                {/* <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
                     <Link href="/usercalender">
                         <SlCalender size={"1.5em"} />
                     </Link>
+                </li>
+                {/* <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
+                    <Link href="/loginform">
+                        <BsPerson size={"1.5em"} /> 
+                    </Link>     
                 </li> */}
             </ul>
         </nav>

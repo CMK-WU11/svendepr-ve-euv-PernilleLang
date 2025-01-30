@@ -2,7 +2,6 @@ import Navigation from "@/components/navigation";
 
 export default async function StaffCalender () {
 
-
     return(
         <>
         <section className="h-screen w-screen bg-[#5E2E53]">

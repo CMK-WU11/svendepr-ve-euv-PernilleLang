@@ -14,10 +14,11 @@ export default function SearchResults({ classes }) {
 
 	return (
 		<>
-			<h2>Søge resultat</h2>
-				{results.length > 0 ? results.map(element => (
-						<ClassCard element={element} />
-				)) : <li>Der blev ikke fundet nogle aktiviteter. Prøv at søge efter noget andet.</li>}
+			{results.length > 0 ? results.map(classes => (
+				<span key={classes.createdAt}>
+					<ClassCard classes={classes}/>
+				</span>	
+			)) : <li>Der blev ikke fundet nogle aktiviteter. Prøv at søge efter noget andet.</li>}
 		</>
 	)
 }

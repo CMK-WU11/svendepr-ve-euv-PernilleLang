@@ -10,8 +10,6 @@ export default async function Login(formState, formData) {
 	const username = formData.get('username')
     const password = formData.get('password')
 
-	console.log("fejl", username, password)
-
 	const schema = z.object({
 		username: z.string().min(1, { message: "Indtast venligst et brugernavn!" }),
 		password: z.string().min(1, { message: "Indtast venligst en adgangskode!" })
@@ -43,7 +41,6 @@ export default async function Login(formState, formData) {
 			password
 		})
 	})
-	console.log("fejl", response)
 
 	if (response.status === 401) {
 		return {
@@ -53,7 +50,6 @@ export default async function Login(formState, formData) {
 	}
 
 	if (response.statusText === "OK") {
-		// håndter token, gem i cookie
 		const data = await response.json()
 		const cookieStore = await cookies()
 
