@@ -15,7 +15,7 @@ export default function Home() {
       </section>
       <div className="h-[35%] flex justify-center items-end pb-[3em]">
         <Link
-          href="/aktiviteter"
+          href="/activities"
           className="welcome-button bg-[#5E2E53] text-white text-[18px] rounded-md w-[50%] h-[20%] shadow-[2px_19px_17px_-5px_rgba(0,_0,_0,_0.15)] flex justify-center items-center">
           Kom i gang
         </Link>

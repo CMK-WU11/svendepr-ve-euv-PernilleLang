@@ -1,7 +1,7 @@
 import ClassCard from "@/components/class-card";
 import Navigation from "@/components/navigation";
 
-export default async function Aktiviteter() {
+export default async function Activities() {
 
     {/* Fetch og map funktion er kopieret fra min terminsprøve opgave og tilpasset */ }
 
@@ -15,7 +15,7 @@ export default async function Aktiviteter() {
         <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll">
             <h2 className="text-white text-[36px] pl-[1.3em] pt-[0.5em]">Aktiviteter</h2>
             {classes.map(element => (  
-                <ClassCard classes={element}/>
+                <ClassCard classes={element} key={element.name}/>
             ))}    
         </section>
         <Navigation />
