@@ -2,8 +2,6 @@ import Link from "next/link";
 
 export default function Home() {
 
-
-
   return (
     <div className="relative bg-[url('/splash-image.jpg')] bg-cover bg-center h-screen w-screen">
       <section className="flex items-end h-[65%]">
