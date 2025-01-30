@@ -1,5 +1,6 @@
 import ClassCard from "@/components/class-card";
 import Navigation from "@/components/navigation";
+import SearchContainer from "@/components/search-container";
 import SearchInput from "@/components/search-input";
 
 export default async function Search () {
@@ -16,7 +17,7 @@ export default async function Search () {
         <>
         <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll">
             <h1 className="text-white text-[36px] pl-[1em] pt-[0.5em]">Søg</h1>
-            <SearchInput classes={classes}/>
+            <SearchContainer classes={classes}/>
             <ClassCard classes={classes}/>
         </section>
         <Navigation/>
