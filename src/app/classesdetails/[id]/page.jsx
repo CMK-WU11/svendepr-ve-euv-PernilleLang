@@ -52,7 +52,7 @@ export default async function ClassesDetails ({ params }){
         <>
         <section className="h-screen w-screen  bg-[#5E2E53] text-white relative">
             <article className="h-[100%]">
-                <Image priority src={details.asset.url} width="4992" height="3328" alt="class photo" className="h-[50%] relative"/>
+                <Image priority src={details.asset.url} width="4992" height="3328" alt="class photo" className="h-[50%] bg-cover relative"/>
                 {/* <SignUpButton/> */}
                 {/* <Link href="/" className="bg-[#5E2E53] text-white text-[18px] rounded-md w-[50%] h-[6%] flex justify-center absolute">
                         <button>Tilmeld</button>

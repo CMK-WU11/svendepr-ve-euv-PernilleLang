@@ -2,9 +2,9 @@
 
 import SearchInput from "@/components/search-input"
 import SearchResults from "@/components/search-results"
-import { createContext, useState } from "react"
+import { createContext } from "react"
 
-export const SearchContext = createContext("") //alternativet var prop drilling//
+export const SearchContext = createContext("")
 
 export default function SearchContainer({classes}) {
 
@@ -12,7 +12,7 @@ export default function SearchContainer({classes}) {
 
 	return (
 		<SearchContext.Provider value={{searchText, setSearchText}}>
-			<SearchInput />
+			<SearchInput/>
 			<SearchResults classes={classes} />
 		</SearchContext.Provider>
 	)

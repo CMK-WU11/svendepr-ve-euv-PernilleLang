@@ -10,8 +10,6 @@ export default function SearchResults({ classes }) {
 
 	const results = classes.filter(function (element) {
 		if (element.name.toLowerCase().includes(searchText.toLowerCase())) return element
-		if (element.description.toLowerCase().includes(searchText.toLowerCase())) return element
-		if (element.weekday.toLowerCase().includes(searchText.toLowerCase())) return element
 	})
 
 	return (

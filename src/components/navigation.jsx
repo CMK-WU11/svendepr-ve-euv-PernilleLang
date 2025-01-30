@@ -6,7 +6,6 @@ import { FiSearch } from "react-icons/fi";
 import { SlCalender } from "react-icons/sl";
 import { BsPerson } from "react-icons/bs";
 
-
 export default function Navigation( ) {
 
     return(
