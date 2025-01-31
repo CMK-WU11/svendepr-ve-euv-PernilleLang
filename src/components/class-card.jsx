@@ -15,7 +15,7 @@ export default function ClassCard({ classes }) {
                             height={300}
                             alt="allclasses image"
                             className="pt-[2em] w-[80%] h-[20em] bg-cover bg-center rounded-bl-3xl rounded-t-3xl"
-
+                            blurDataURL=""
                         />
                         <div className="bg-[#E1A1E9] absolute bg-opacity-50 bottom-0 h-[25%] w-[80%] pl-[0.5em] rounded-tr-3xl rounded-bl-3xl">
                             <p className="pt-[0.5em] text-xl bg-opacity-50">{classes.name}</p>
