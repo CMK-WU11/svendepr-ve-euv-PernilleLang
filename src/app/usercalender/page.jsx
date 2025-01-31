@@ -1,6 +1,8 @@
 import Navigation from "@/components/navigation";
 import { cookies } from "next/headers"
 
+
+
 export const metadata = { title: "Kalender" }
 
 export default async function UserCalender() {
@@ -31,7 +33,7 @@ export default async function UserCalender() {
                         <li className="text-[18px]">{yourCalender.weekday}{yourCalender.time}</li>
                     </ul>
                 ))}
-            </section>
+            </section >
             <Navigation />
         </>
     )

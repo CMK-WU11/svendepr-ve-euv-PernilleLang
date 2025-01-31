@@ -25,24 +25,35 @@
 
 # ***Eksempel på noget kode fra min opgave, med noter***
 
-***Et eksempel fra min kode***
-<!-- Image er et indbygget komponent, som gør at Next js er mere dynamisk og hurtigt. Endnu en grund til at vælge Next js. Dette er bl.a. også en af grundende til at Next js er så brugervenligt og hurtigt for programmøren at benytte. 
-
-I denne kode henter jeg billedet via en api fetch i min source (src). Billedet får også height og width som en slags billede opløsning. Det samme gælder med Link, som med Image, og det giver også en hurtig routing imellem siderne på hjemmesiden. 
-
-Navigation er en burgermenu/overlay menu jeg har bygget og lavet som en komponent. 
-
-Alt under className er styling.
+***Et eksempel fra min kode*** Jeg har valgt denne kode til forklaring, i et eksempel, da jeg syntes det at fetche og mappe er interessant Det har også været en udfordring for mig. Men jeg bruger en asynkron funktion fordi jeg fetcher i min funktion. Det betyder jeg skal håndtere sideeffekter, som i dette tilfælde er min API fetch. Jeg fetcher så mit API link (som betyder at hente data fra en ekstern server). En fetch er en funktion som henter information fra en API. Min const classes tager svaret og laver om og udskriver json. Herefter går jeg ned og mapper i min jsx. At mappe betyder at tage et array og lave om til et nyt array. 
+Nu bliver hver enkelt hold til en ClassCard komponent. Jeg giver hver ClassCard en key baseret på aktivtetsnavnet, så nu kan jeg deror hente alle brugeres tilmeldte hold, og de printes alle ud.
+Herudover dette har jeg også brugt metadata til at omdøbe titlen i browserens fane, samt hentet min navigation ind som en komponent. Selvfølgelig har jeg også stylet på det hele.
 
 ```javascript
- <Image src={details.asset.url} width={500} height={500} alt="classimage"   className="absolute h-[100%] w-[100%] object-cover"/>
-    <div className="relative pt-[5em] pl-[2em] pr-[2em] flex justify-between">
-        <Link href="/home">
-            <p className="flex text-[#F4A88E]"><BiSolidLeftArrow className="fill-[#F4A88E]" size="15px"/>Back</p>
-        </Link>
-        <Navigation/>
-    </div>
-``` -->
+ export const metadata = { title: "Aktiviter" }
+
+export default async function Activities() {
+
+    {/* Fetch og map funktion er kopieret fra min terminsprøve opgave og tilpasset */ }
+
+    const responseClasses = await fetch(
+        "http://localhost:4000/api/v1/activities",
+    )
+    const classes = await responseClasses.json();
+
+    return (
+        <>
+            <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll">
+                <h1 className="text-white text-[36px] pl-[1.3em] pt-[0.5em]">Aktiviteter</h1>
+                {classes.map(element => (
+                    <ClassCard classes={element} key={element.name} />
+                ))}
+            </section>
+            <Navigation />
+        </>
+    )
+}
+```
 
 
 # ***Argumentation for ændringer***
