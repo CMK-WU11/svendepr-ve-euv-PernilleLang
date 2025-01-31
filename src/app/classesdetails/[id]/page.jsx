@@ -1,6 +1,8 @@
 import Navigation from "@/components/navigation";
 import Image from "next/image";
 
+export const metadata = { title: "Holddetaljer" }
+
 export default async function ClassesDetails({ params }) {
 
     const { id } = await params;
@@ -11,7 +13,7 @@ export default async function ClassesDetails({ params }) {
 
     const details = await classDetails.json();
 
-    {/* Fetch og map funktion er kopieret fra min terminsprøve opgave og tilpasset */ }
+    {/* Fetch og map funktion, oven over, er kopieret fra min terminsprøve opgave og tilpasset */ }
 
     // nedenstående, til log in / log ud knappen er lavet efter Brians terminsprøves gennemgang med klassen
 

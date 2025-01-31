@@ -14,13 +14,13 @@ export default function SearchResults({ classes }) {
 
 	return (
 		<>
-			{results.length > 0 ? results.map(classes => (
-				<ul>
+			<ul>
+				{results.length > 0 ? results.map(classes => (
 					<li key={classes.createdAt}>
 						<ClassCard classes={classes} />
 					</li>
-				</ul>
-			)) : <p className="text-white">Der blev ikke fundet nogle aktiviteter. Prøv at søge efter noget andet.</p>}
+				)) : <p className="text-white">Der blev ikke fundet nogle aktiviteter. Prøv at søge efter noget andet.</p>}
+			</ul>
 		</>
 	)
 }

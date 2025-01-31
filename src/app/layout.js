@@ -1,10 +1,12 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
-  title: "Landrup Dans",
+  title: {
+    default: "Landrup Dans",
+    template: "%s | Landrup Dans"
+  },
   description: "Landrup Dans",
-};
+}
 
 export default function RootLayout({ children }) {
   return (

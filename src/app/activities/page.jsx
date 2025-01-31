@@ -1,6 +1,8 @@
 import ClassCard from "@/components/class-card";
 import Navigation from "@/components/navigation";
 
+export const metadata = { title: "Aktiviter" }
+
 export default async function Activities() {
 
     {/* Fetch og map funktion er kopieret fra min terminsprøve opgave og tilpasset */ }

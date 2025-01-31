@@ -1,6 +1,8 @@
 import Navigation from "@/components/navigation";
 import SearchContainer from "@/components/search-container";
 
+export const metadata = { title: "Søg" }
+
 export default async function Search() {
 
     {/* Fetch og map funktion er kopieret fra din mægler og min terminsprøve opgave og tilpasset */ }

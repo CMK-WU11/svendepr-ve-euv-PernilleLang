@@ -1,6 +1,8 @@
 import Navigation from "@/components/navigation";
 import { cookies } from "next/headers"
 
+export const metadata = { title: "Kalender" }
+
 export default async function UserCalender() {
     const cookiestorage = await cookies()
 

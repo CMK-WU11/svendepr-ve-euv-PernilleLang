@@ -5,7 +5,7 @@ import { useActionState, useEffect } from "react"
 
 export default function LoginForm() {
 
-    const [formState, formAction] = useActionState(Login)
+    const [formState, formAction, isPending] = useActionState(Login)
 
     useEffect(function () {
         console.log("formState", formState)
@@ -14,11 +14,11 @@ export default function LoginForm() {
     {/* const og useEffect er taget med  stor inspiration fra gennemgangen af terminsprøven med Brian*/ }
 
     return (
-        <section className="relative z-0 bg-[url('/splash-image.jpg')] bg-cover bg-center h-screen w-screen flex flex-col justify-center items-center">
+        <article className="relative z-0 bg-[url('/splash-image.jpg')] bg-cover bg-center h-screen w-screen flex flex-col justify-center items-center">
             <div className="absolute z-10 top-24 bg-black opacity-50 w-[100%] h-[75%] transform rotate-45"></div>
             <form action={formAction} className="z-20 h-[25%] flex flex-col items-center">
                 <div className="text-white text-[36px]">
-                    <h1>Log ind</h1>
+                    <p>Log ind</p>
                 </div>
                 <div className="w-[75%]">
                     <label>
@@ -33,9 +33,15 @@ export default function LoginForm() {
                     <span>{formState?.errors?.password?._errors}</span>
                 </div>
                 <div className="w-[75%] ml-[4em]">
-                    <button type="submit" className="bg-[#5E2E53] text-white text-[18px] rounded-md  mt-[1em] w-[70%] h-[75%]">Log Ind</button>
+                    <button
+                        disabled={isPending}
+                        type="submit"
+                        className="bg-[#5E2E53] text-white text-[18px] rounded-md  mt-[1em] w-[70%] h-[75%]">
+                        Log Ind
+                    </button>
+                    <span>{formState?.errors}</span>
                 </div>
             </form>
-        </section>
+        </article>
     )
 }

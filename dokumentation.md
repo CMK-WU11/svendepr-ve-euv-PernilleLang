@@ -4,7 +4,7 @@
 
 ***Github URL:*** https://github.com/CMK-WU11/svendepr-ve-euv-PernilleLang 
 
-***Adgang, f.eks.:*** Brugernavn: user1 - Adgangskode: 1234 eller instructor1 - adgangskode 1234   
+***Adgang, f.eks.:*** Brugernavn: "user1" - Adgangskode: "1234"  
 
 
 # **Teknologi stack**
@@ -46,19 +46,16 @@ Alt under className er styling.
 
 
 # ***Argumentation for ændringer***
-<!-- ***Welcome*** Jeg har beholdt billedet på denne måde, så man kan se kvinden har veltrænede mavemuskler – man vil gerne kunne relatere til billedet, nu det er en fitness hjemmeside. 
+***Knap på forsiden*** Jeg har valgt at lave denne knap bouncende. Jeg syntes det gør siden mere aktiv og sjov, samt det fanger brugerens opmærksomhed og signalerer at knappen kan (og skal) bruges. Særligt omkring opmærksomhed ved knappen så syntes ja at dette mere brugervenligt for personer med synsnedsættelse.
 
-***Home*** Jeg har lavet pilen der peger op, om til en pil der drejer til venstre, som på de andre sidder. Dette er for at beholde et ensartet udseende og så der ingen tvivl er om at pilen er en tilbage knap.
-
-***Navigation*** Jeg har valgt at sætte min login funktion direkte på min burger/overlay menu, da jeg syntes det giver en mindre rodet hjemmeside. På denne måde undgår brugeren at skulle trykke yderligere eller gå til en ny side. 
-
-***Class details*** Jeg har lavet/tilføjet en burgermenu, som giver adgang til en overlay burgermenu menu. Dette er for brugervenligheden og for at beholde et ensartet udseende.  -->
+***Resultater på søgefelt*** Jeg har valgt at lave metoden her om. I opgavebeskrivelsen står der "Listen over resultater vises kun, efter en bruger har skrevet noget i søgefeltet." Jeg finder det personligt mere dynamisk og brugervenligt at resultaterne vises løbende når man skriver i input feltet.
 
 # ***Skalering af fremtiden***
 ***Fremtiden for mit projekt*** Mit projekt er lavet i mobilefirst, og derfor er det lige klar til at tilgå til at lave til iPad størrelse og fuld hjemmeside oplevelse. Herefter ville mit projekt nemt kunne udgives på Vercel, da jeg har lavet mit projekt i Next.js. Vercel er lavet af Next.js, og derfor er det lavet til at performe derefter.
   
 
 # ***Fremhævelse***
-Accessibility og SEO, er noget jeg går op i, så derfor er det vigtigt for mig at fremhæve netop dette fra min opgave.  
+Accessibility og SEO, er noget jeg går op i, så derfor er det vigtigt for mig at fremhæve netop dette fra min opgave.
+Lige præcist mit søgefelt har udfordret mig både kodemæssigt, men også omkring performance og accessibility. Jeg har forsøgt mig frem med flere forskellige farveskaler og forsøg. Teksten blev lavet hvid, så sort også tilbage til hvid. Herefter gennemgik jeg det samme med mit input felt. Som det ser ud nu, står det helt sikkert bedst - Men med plads til forbedringer, som jeg ikke havde tid til at gå dybere ind i under svendeprøven. Problemet er mere specifikt billederne da de ikke står helt skarpt i "ratio" (altså billede forhold / format), og derfor påvirker dette lighthouse testen "Best Practis". Alle mine sidder lægger generelt på 100% - eller lige under - i accesibility og SEO (Search Engine optimization). 
 
-<!-- <img src="./public/fremhaevelse.jpg" style="width:450px; height:auto;"> -->
+<img src="./public/eksempel.jpg" style="width:450px; height:auto;">
