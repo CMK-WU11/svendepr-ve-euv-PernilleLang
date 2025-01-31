@@ -18,6 +18,7 @@ export default async function Activities() {
                 <ClassCard classes={element} key={element.name}/>
             ))}    
         </section>
+        <h2>Godmorgen</h2>
         <Navigation />
         </>
     )
