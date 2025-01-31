@@ -7,7 +7,7 @@ export default function Home() {
       <section className="flex items-end h-[65%]">
         <div className="absolute ml-[2em]">
           <h1 className="roboto">LANDRUP</h1>
-          <p className="racingsansone">DANS</p>
+          <h2 className="racingsansone">DANS</h2>
         </div>
         <div className="bg-[gradient-to-l from-fuchsia-900 via-fuchsia-700 to-fuchsia-900 h-[1em] w-[17em]]"></div>
       </section>

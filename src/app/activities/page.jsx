@@ -12,14 +12,13 @@ export default async function Activities() {
 
     return (
         <>
-        <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll">
-            <h2 className="text-white text-[36px] pl-[1.3em] pt-[0.5em]">Aktiviteter</h2>
-            {classes.map(element => (  
-                <ClassCard classes={element} key={element.name}/>
-            ))}    
-        </section>
-        <h2>Godmorgen</h2>
-        <Navigation />
+            <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll">
+                <h1 className="text-white text-[36px] pl-[1.3em] pt-[0.5em]">Aktiviteter</h1>
+                {classes.map(element => (
+                    <ClassCard classes={element} key={element.name} />
+                ))}
+            </section>
+            <Navigation />
         </>
     )
 }

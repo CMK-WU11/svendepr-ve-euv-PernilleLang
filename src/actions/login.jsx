@@ -8,7 +8,7 @@ import z from "zod"
 
 export default async function Login(formState, formData) {
 	const username = formData.get('username')
-    const password = formData.get('password')
+	const password = formData.get('password')
 
 	const schema = z.object({
 		username: z.string().min(1, { message: "Indtast venligst et brugernavn!" }),

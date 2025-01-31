@@ -1,7 +1,7 @@
 import Navigation from "@/components/navigation";
 import SearchContainer from "@/components/search-container";
 
-export default async function Search () {
+export default async function Search() {
 
     {/* Fetch og map funktion er kopieret fra din mægler og min terminsprøve opgave og tilpasset */ }
 
@@ -10,13 +10,13 @@ export default async function Search () {
     )
     const classes = await responseClasses.json();
 
-    return(
+    return (
         <>
-        <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll">
-            <h1 className="text-white text-[36px] pl-[1em] pt-[0.5em]">Søg</h1>
-            <SearchContainer classes={classes}/>
-        </section>
-        <Navigation/>
+            <section className="h-screen w-screen bg-[#5E2E53] overflow-x-scroll text-black">
+                <h1 className="text-white text-[36px] pl-[1em] pt-[0.5em]">Søg</h1>
+                <SearchContainer classes={classes} />
+            </section>
+            <Navigation />
         </>
     )
 }

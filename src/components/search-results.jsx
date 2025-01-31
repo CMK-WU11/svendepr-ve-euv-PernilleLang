@@ -16,8 +16,8 @@ export default function SearchResults({ classes }) {
 		<>
 			{results.length > 0 ? results.map(classes => (
 				<span key={classes.createdAt}>
-					<ClassCard classes={classes}/>
-				</span>	
+					<ClassCard classes={classes} />
+				</span>
 			)) : <li>Der blev ikke fundet nogle aktiviteter. Prøv at søge efter noget andet.</li>}
 		</>
 	)

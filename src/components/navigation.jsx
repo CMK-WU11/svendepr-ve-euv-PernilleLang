@@ -6,14 +6,14 @@ import { FiSearch } from "react-icons/fi";
 import { SlCalender } from "react-icons/sl";
 import { BsPerson } from "react-icons/bs";
 
-export default function Navigation( ) {
+export default function Navigation() {
 
-    return(
+    return (
         <nav className="bg-white h-[4em] fixed-bottom-0">
             <ul className="flex justify-around mt-[1em] mb-[1em]">
                 <li className="border rounded-full border-black h-[3em] w-[4em] flex items-center justify-center">
                     <Link href="/">
-                        <AiOutlineHome size={"1.5em"}/>
+                        <AiOutlineHome size={"1.5em"} />
                     </Link>
                 </li>
                 <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
@@ -22,7 +22,7 @@ export default function Navigation( ) {
                     </Link>
                 </li>
                 <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
-                    <Link href="/usercalender">
+                    <Link href="/loginform">
                         <SlCalender size={"1.5em"} />
                     </Link>
                 </li>
