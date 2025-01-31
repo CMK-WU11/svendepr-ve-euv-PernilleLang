@@ -32,14 +32,14 @@ export default function LoginForm() {
                     </label>
                     <span>{formState?.errors?.password?._errors}</span>
                 </div>
-                <div className="w-[75%] ml-[4em]">
+                <div className="w-[75%] ml-[4em] flex flex-col justify-center">
                     <button
                         disabled={isPending}
                         type="submit"
                         className="bg-[#5E2E53] text-white text-[18px] rounded-md  mt-[1em] w-[70%] h-[75%]">
                         Log Ind
                     </button>
-                    <span>{formState?.errors}</span>
+                    <span className="text-red-700">{formState?.errors}</span>
                 </div>
             </form>
         </article>
