@@ -4,7 +4,6 @@ import { useContext } from "react"
 import { SearchContext } from "./search-container"
 import ClassCard from "./class-card"
 
-
 export default function SearchResults({ classes }) {
 	const { searchText } = useContext(SearchContext)
 

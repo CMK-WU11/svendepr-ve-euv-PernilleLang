@@ -5,7 +5,7 @@ import { useActionState, useEffect } from "react"
 
 export default function LoginForm() {
 
-    const [formState, formAction, isPending] = useActionState(Login)
+    const [formState, formAction] = useActionState(Login)
 
     useEffect(function () {
         console.log("formState", formState)

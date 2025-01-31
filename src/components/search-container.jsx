@@ -18,4 +18,4 @@ export default function SearchContainer({ classes }) {
 	)
 }
 
-{/* søge containeren, og context, er taget med  stor inspiration fra gennemgangen af terminsprøven med Brian*/ }
+{/* søge containeren, og context, er taget med stor inspiration fra gennemgangen af terminsprøven med Brian*/ }
