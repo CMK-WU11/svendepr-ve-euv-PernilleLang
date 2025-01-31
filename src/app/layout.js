@@ -1,5 +1,7 @@
 import "./globals.css";
 
+// Metoden med Metadata, er efter gennemgang af terminsprøven med Brian
+
 export const metadata = {
   title: {
     default: "Landrup Dans",

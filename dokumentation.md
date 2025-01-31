@@ -26,6 +26,8 @@ Brugernavne & adgangskode:
 ***React Icons (https://react-icons.github.io/react-icons/)*** React Icons er super nemt at anvende, biblioteket skal blot installeres også har jeg nem og hurtig adgang til et helt bibliotek af gratis ikoner. Jeg kunne også her have valgt Fontawesome, som jeg tidligere har benyttet, men React Icons har langt flere tilgengængelige ikoner. Hos Fontawesome går jeg tit forgæves og ikonerne er ikke altid gratis - hvilket er uhensmæssigt som programmør at bruge tid og energi på. 
 
 ***Zod, formvalidering (https://zod.dev/?id=installation)*** Jeg har hentet ZOD som bibliotek til validering af formularer, da dette er nemt at anvende og valideringen giver en mere simpel formvalidering og kode. Zod er forholdsvist nemt og giver en god validering, det gør koden mere DRY og simpel. Alternativet kunne f.eks. være at jeg skulle hardcode (lave min kode med Javascript) - igen spild af tig og energi!
+
+***Google Font https://fonts.google.com/*** Jeg har benyttet Google font til at importere de forskellige fonte til projektet - Jeg kiggede også på at indhente et Next font bibliotek men google font var så meget nemmere og hurtigere at benytte.
  
 
 # ***Tredjepartskode*** 
