@@ -22,9 +22,9 @@ export default async function ClassesDetails({ params }) {
                     <Image
                         priority
                         src={details.asset.url}
-                        width="4992"
-                        height="3328"
-                        alt="class photo"
+                        width="697"
+                        height="646"
+                        alt={`Photo of &{details.name}`}
                         className="h-[50%] bg-cover relative"
                     />
                     <div className="p-[1em]">

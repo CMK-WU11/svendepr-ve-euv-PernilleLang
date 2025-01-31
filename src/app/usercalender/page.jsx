@@ -24,10 +24,10 @@ export default async function UserCalender() {
             <section className="h-screen w-screen bg-[#5E2E53]">
                 <h1 className="text-white text-[36px] pl-[0.5em] pt-[0.5em]">Kalender</h1>
                 {calenderDetails.activities.map(yourCalender => (
-                    <div key={yourCalender.createdAt} className="bg-white m-[1em] h-[10%] rounded-lg pl-[1em]">
-                        <p className="text-[24px]">{yourCalender.name}</p>
-                        <p className="text-[18px]">{yourCalender.weekday}{yourCalender.time}</p>
-                    </div>
+                    <ul key={yourCalender.createdAt} className="bg-white m-[1em] h-[10%] rounded-lg pl-[1em]">
+                        <li className="text-[24px]">{yourCalender.name}</li>
+                        <li className="text-[18px]">{yourCalender.weekday}{yourCalender.time}</li>
+                    </ul>
                 ))}
             </section>
             <Navigation />

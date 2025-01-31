@@ -26,7 +26,6 @@
 # ***Eksempel på noget kode fra min opgave, med noter***
 
 ***Et eksempel fra min kode***
-
 <!-- Image er et indbygget komponent, som gør at Next js er mere dynamisk og hurtigt. Endnu en grund til at vælge Next js. Dette er bl.a. også en af grundende til at Next js er så brugervenligt og hurtigt for programmøren at benytte. 
 
 I denne kode henter jeg billedet via en api fetch i min source (src). Billedet får også height og width som en slags billede opløsning. Det samme gælder med Link, som med Image, og det giver også en hurtig routing imellem siderne på hjemmesiden. 

@@ -13,17 +13,17 @@ export default function Navigation() {
             <ul className="flex justify-around mt-[1em] mb-[1em]">
                 <li className="border rounded-full border-black h-[3em] w-[4em] flex items-center justify-center">
                     <Link href="/">
-                        <AiOutlineHome size={"1.5em"} />
+                        <AiOutlineHome size={"1.5em"} aria-label="hjem" />
                     </Link>
                 </li>
                 <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
                     <Link href="/search">
-                        <FiSearch size={"1.5em"} />
+                        <FiSearch size={"1.5em"} aria-label="søg" />
                     </Link>
                 </li>
                 <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
                     <Link href="/loginform">
-                        <SlCalender size={"1.5em"} />
+                        <SlCalender size={"1.5em"} aria-label="kalender" />
                     </Link>
                 </li>
                 {/* <li className="border rounded-[20em] border-black h-[3em] w-[4em] flex items-center justify-center">
